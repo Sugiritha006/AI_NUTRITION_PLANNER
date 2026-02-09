@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Nutrition Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="hero">
+  <h1>Eat Indian. Eat Smart.</h1>
+
+  <p class="tagline">
+    An AI-powered nutrition planner that respects Indian food, regional culture,
+    and real eating habits — not foreign diet charts.
+  </p>
+
+  <h3>Select Your Regional Cuisine</h3>
+
+  <div class="regions">
+    <button onclick="selectRegion('Punjabi')">Punjabi</button>
+    <button onclick="selectRegion('Tamil')">Tamil</button>
+    <button onclick="selectRegion('Kerala')">Kerala</button>
+    <button onclick="selectRegion('Andhra')">Andhra</button>
+    <button onclick="selectRegion('Bengali')">Bengali</button>
+    <button onclick="selectRegion('Rajasthani')">Rajasthani</button>
+  </div>
+
+  <button class="cta" onclick="goToResults()">Generate My Meal Plan</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
